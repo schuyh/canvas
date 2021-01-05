@@ -1,0 +1,8 @@
+<ul class="d-inline-flex align-items-baseline">
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank"><i class="fa fa-facebook">&nbsp;/&nbsp;</i></a></li>
+    <li><a href="https://www.linkedin.com/shareArticle?mini=true&source={{ page.title }}&summary={{ page.description }}&url={{ page.url | absolute_url}}" target="_blank"><i class="fa fa-linkedin">&nbsp;/&nbsp;</i></a></li>
+    <li><a href="https://www.pinterest.com/pin/create/link/?description={{ page.description }}&media={{ page.image | absolute_url }}&url={{ page.url | absolute_url }}" target="_blank"><i class="fa fa-pinterest">&nbsp;/&nbsp;</i></a></li>
+    <li><a href="https://www.reddit.com/submit?url={{ page.url | absolute_url }}" target="_blank"><i class="fa fa-reddit">&nbsp;/&nbsp;</i></a></li>
+    <li><a href="https://www.tumblr.com/share/link?url={{ page.url | absolute_url }}" target="_blank"><i class="fa fa-tumblr">&nbsp;/&nbsp;</i></a></li>
+    <li><a href="https://twitter.com/intent/tweet?&text={{ page.title }}+{{ page.url | absolute_url }}{% if page.author %}+by+{{ page.author }}{% endif %}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  </ul>

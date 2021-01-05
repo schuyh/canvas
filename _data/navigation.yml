@@ -1,0 +1,5 @@
+- name: home
+  link: /
+
+- name: mail
+  link: https://beta.protonmail.com

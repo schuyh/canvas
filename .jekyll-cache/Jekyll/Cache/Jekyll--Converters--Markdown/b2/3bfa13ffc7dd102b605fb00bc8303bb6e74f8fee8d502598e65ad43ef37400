@@ -1,0 +1,39 @@
+I"<div class="container-fluid pt-3">
+    <div class="row" style="margin-top: 50px;">
+        <h2></h2>
+    </div>
+    <div class="row d-flex mx-auto align-items-center">
+        
+            <div class="col-sm-6">
+                <div class="card shadow-sm" style="margin: 15px;">
+    <div class="card-header bg-light postcard">
+        <h3 class="card-title postcard postcard-header">Second Post</h3>
+    </div>
+    <div class="card-body bg-white postcard">
+        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/officeAO.png" alt="Second Post" />
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+            <a href="/2021/01/04/Second-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah...</a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        
+            <div class="col-sm-6">
+                <div class="card shadow-sm" style="margin: 15px;">
+    <div class="card-header bg-light postcard">
+        <h3 class="card-title postcard postcard-header">First Post</h3>
+    </div>
+    <div class="card-body bg-white postcard">
+        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/AO.png" alt="First Post" />
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+            <a href="/2021/01/03/First-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah...</a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+:ET

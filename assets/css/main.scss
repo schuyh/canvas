@@ -1,0 +1,110 @@
+---
+---
+
+@import "main";
+
+/* Colors */
+
+:root {
+    --black: #050709;
+    --dark: #7e7f80;
+    --grey: #aeafb0;
+    --light: #f7f8f9;
+    --white: #f0f1f2;
+}
+
+/* Fonts */ 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    color: var(--grey);
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--dark);
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+}
+
+h6 {
+    font-size: 0.5rem;
+}
+
+a {
+    font-family: 'Roboto', serif;
+    color: var(--grey);
+}
+
+a.postcard {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 84%;
+    color: var(--white);
+}
+
+a:hover, a.postcard:hover {
+    color: var(--black);
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark);
+}
+
+.mono {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--grey);
+}
+
+/* Structural Elements */ 
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background-image: linear-gradient(var(--grey),var(--light));
+}
+
+.postcard {
+    margin: 0px;
+    padding: 3px;
+}
+
+.postcard-header {
+    color: var(--grey)
+}
+
+.postcard-image {
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--light);
+}
+
+.postcard-text {
+    margin: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+}
+
+.post-header {
+    text-align: center;
+}
+
+.post-image {
+    max-width: 100%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Canvas CSS -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@200&family=Roboto+Slab:wght@300&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Page Start -->
+    <div style="height: 1000px;">
+    <!-- Header -->
+        {% include header.html %}
+    <!-- Nav -->
+        {% include navigation.html %}
+    <!-- Body/Content -->
+        <div class="container pt-3">
+          {{ content }}
+        </div>
+    <!-- Footer -->
+        {% include footer.html %}
+    <!-- Page End -->
+    </div>
+</body>
+</html>

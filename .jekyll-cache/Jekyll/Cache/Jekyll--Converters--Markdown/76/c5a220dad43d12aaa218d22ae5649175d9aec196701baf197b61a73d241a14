@@ -1,0 +1,39 @@
+I"s<div class="container-fluid pt-3">
+    <div class="row pt-3 d-flex justify-content-center">
+        <h2 style="color: var(--grey);">Gallery</h2>
+    </div>
+    <div class="row pt-3 d-flex mx-auto align-items-center">
+        
+            <div class="col-sm-6">
+                <div class="card shadow-sm" style="margin: 15px;">
+    <div class="card-header bg-light postcard">
+        <h3 class="card-title postcard postcard-header" style="font-size: 24px;;">Second Post</h3>
+    </div>
+    <div class="card-body bg-white postcard">
+        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/officeAO.png" alt="Second Post" />
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+            <a href="/2021/01/04/Second-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah...</a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        
+            <div class="col-sm-6">
+                <div class="card shadow-sm" style="margin: 15px;">
+    <div class="card-header bg-light postcard">
+        <h3 class="card-title postcard postcard-header" style="font-size: 24px;;">First Post</h3>
+    </div>
+    <div class="card-body bg-white postcard">
+        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/AO.png" alt="First Post" />
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+            <a href="/2021/01/03/First-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah...</a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+:ET
