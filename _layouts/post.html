@@ -8,7 +8,7 @@ layout: default
 <div class="row pt-3">
     <div class="col-12 pt-3 d-flex align-content-baseline">
         {% if page.image %}
-        <img class="post-image" src="{{ page.image }}" alt="{{ page.title }}">
+        <img class="post-image" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
         {% endif %}
     </div>
 </div>
