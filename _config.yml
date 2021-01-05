@@ -3,3 +3,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "canvas" # the name of your site, e.g. ACME Corp.
 logo: "/assets/images/canvas4.png"
 author: Schuy H
+
+sass:
+  style: compressed
