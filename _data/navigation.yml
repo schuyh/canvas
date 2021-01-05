@@ -1,5 +1,5 @@
 - name: home
-  link: {{ / | relative_url }}
+  link: "{{ / | relative_url }}"
 
 - name: mail
   link: https://beta.protonmail.com
