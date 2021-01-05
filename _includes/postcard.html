@@ -3,9 +3,9 @@
         <h3 class="card-title postcard postcard-header">{{ post.title | strip_html | truncatewords: 3}}</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="{{ post.image }}" alt="{{ post.title }}">
+        <img class="card-img-top postcard-image shadow-sm" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
         <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
-            <a href="{{ post.url }}" class="stretched-link postcard">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 9 }}</a>
+            <a href="{{ post.url | relative_url }}" class="stretched-link postcard">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 9 }}</a>
         </div>
     </div>
 </div>
