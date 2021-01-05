@@ -1,5 +1,5 @@
 url: "https://schuyh.github.io/canvas" # the base hostname & protocol for your site, e.g. http://example.com
-# baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/canvas" # the subpath of your site, e.g. /blog
 title: "canvas" # the name of your site, e.g. ACME Corp.
 logo: "/assets/images/canvas4.png"
 author: Schuy H
