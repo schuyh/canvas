@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "First Post"
-image: /assets/images/AO.png
+image: 
+ao: /assets/images/stillLifeAO.png
 author: Schuy H
 date: 2021-01-03
 ---

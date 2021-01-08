@@ -4,15 +4,62 @@
 @import 'bootstrap/bootstrap';
 @import "main";
 
+/* Light/Dark Mode */
+
+html, html[data-theme="light"] {
+	--bgColor: white;
+    --black: #050709;
+    --dgrey: #7e7f80;
+    --grey: #aeafb0;
+    --lgrey: #f7f8f9;
+    --white: #f0f1f2;
+    --theme-toggle: url(/assets/images/paintbrushBlack3.png)
+}
+
+html[data-theme="dark"] {
+    --bgColor: #4e4f50;
+    --black: #f0f1f2;
+    --dgrey: #f7f8f9;
+    --grey: #aeafb0;
+    --lgrey: #7e7f80;
+    --white: #050709; 
+    --theme-toggle: url(assets/images/paintbrushWhite3.png)
+}
+
+
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+        --bgColor: #4e4f50;
+        --black: #f0f1f2;
+        --dgrey: #f7f8f9;
+        --grey: #aeafb0;
+        --lgrey: #7e7f80;
+        --white: #050709;
+        --theme-toggle: url(assets/images/paintbrushWhite3.png) 
+    }
+
+    html[data-theme="light"] {
+        --bgColor: white;
+        --black: #050709;
+        --dgrey: #7e7f80;
+        --grey: #aeafb0;
+        --lgrey: #f7f8f9;
+        --white: #f0f1f2;
+        --theme-toggle: url(assets/images/paintbrushBlack3.png)
+  } 
+}
+
 /* Colors */
 
+/* 
 :root {
     --black: #050709;
-    --dark: #7e7f80;
+    --dgrey: #7e7f80;
     --grey: #aeafb0;
-    --light: #f7f8f9;
+    --lgrey: #f7f8f9;
     --white: #f0f1f2;
 }
+*/ 
 
 /* Fonts */ 
 
@@ -23,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 3rem;
-    color: var(--dark);
+    color: var(--dgrey);
 }
 
 h3 {
@@ -62,7 +109,7 @@ a:hover, a.postcard:hover {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    color: var(--dark);
+    color: var(--dgrey);
 }
 
 .mono {
@@ -72,12 +119,20 @@ p {
 
 /* Structural Elements */ 
 
+body {
+    background-color: var(--bgColor);
+}
+
 ul {
     list-style-type: none;
 }
 
 .header {
-    background-image: linear-gradient(var(--grey),var(--light));
+    background-image: linear-gradient(var(--bgColor),var(--lgrey));
+}
+
+.card-container {
+    margin-bottom: 25px;
 }
 
 .postcard {
@@ -86,14 +141,14 @@ ul {
 }
 
 .postcard-header {
-    color: var(--grey)
+    color: var(--grey);
 }
 
 .postcard-image {
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
-    background-color: var(--light);
+    background-color: var(--lgrey);
 }
 
 .postcard-text {

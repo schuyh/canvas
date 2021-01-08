@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Second Post"
-image: /assets/images/officeAO.png
+image: 
+ao: /assets/images/officeAO.png
 author: Schuy H
 date: 2021-01-04
 ---

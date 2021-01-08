@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@200&family=Roboto+Slab:wght@300&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@200&family=Roboto+Slab:wght@300&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <!-- Font Awesome-->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
@@ -22,11 +22,11 @@
     <a href="/"><h1>Canvas</h1></a>
 </div>
     <!-- Nav -->
-            <nav class="navbar navbar-expand bg-light sticky-top shadow-sm" style="height: 8%;">
+            <nav class="navbar navbar-expand sticky-top shadow-sm" style="height: 8%; background-color: var(--lgrey);">
     <a class="navbar-brand" href="/">
-        <img class="navbar-brand-image" src="/assets/images/canvas4.png" alt="logo" style="width: 50px;">
+        <img class="navbar-brand-image" src="/assets/images/canvas6.png" alt="logo" style="width: 50px;">
     </a>
-    <ul class="navbar-nav">
+    <ul class="navbar-nav" style="width: 100%;">
         
         <li class="nav-item">
             <a class="nav-link" href="/">
@@ -41,22 +41,31 @@
         </li>
         
     </ul>
+    <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+    <a class="nav-link" href="">
+        <a id="theme-toggle" onclick="modeSwitcher()">
+            <img id="paintbrush" src="/assets/images/paintbrushBlack3.png" style="max-width: 50px; height: auto;">
+        </a>
+    </a>
+</li>
+    </ul>
 </nav>
     <!-- Body/Content -->
-            <div class="container pt-3">
-                <div class="container-fluid pt-3">
-    <div class="row pt-3 d-flex justify-content-center">
-        <h2>Gallery</h2>
+            <div class="container-fluid pt-3">
+                <div class="pt-3">
+    <div class="row pt-3">
+        <h2 class="d-flex justify-content-center">Gallery</h2>
     </div>
     <div class="row pt-3 d-flex mx-auto align-items-center">
         
-            <div class="col-sm-6">
-                <div class="card shadow-sm" style="margin: 15px; border-radius: 0px;">
-    <div class="card-header bg-light postcard" style="border-radius: 0px;">
+            <div class="col-sm-6 card-container">
+                <div class="card shadow-sm" style="margin: 15px; border-radius: 0px; border-color: var(--grey)">
+    <div class="card-header postcard" style="border-radius: 0px; background-color: var(--lgrey);">
         <h3 class="card-title postcard postcard-header">Break the Layout...</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/AO.png" alt="Break the Layout with Really Long Post Titles" />
+        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/stillLifeAO.png" alt="Break the Layout with Really Long Post Titles" />
         <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
             <a href="/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah blah…</a>
         </div>
@@ -65,9 +74,9 @@
 
             </div>
         
-            <div class="col-sm-6">
-                <div class="card shadow-sm" style="margin: 15px; border-radius: 0px;">
-    <div class="card-header bg-light postcard" style="border-radius: 0px;">
+            <div class="col-sm-6 card-container">
+                <div class="card shadow-sm" style="margin: 15px; border-radius: 0px; border-color: var(--grey)">
+    <div class="card-header postcard" style="border-radius: 0px; background-color: var(--lgrey);">
         <h3 class="card-title postcard postcard-header">Lorem Ipsum</h3>
     </div>
     <div class="card-body bg-white postcard">
@@ -80,9 +89,9 @@
 
             </div>
         
-            <div class="col-sm-6">
-                <div class="card shadow-sm" style="margin: 15px; border-radius: 0px;">
-    <div class="card-header bg-light postcard" style="border-radius: 0px;">
+            <div class="col-sm-6 card-container">
+                <div class="card shadow-sm" style="margin: 15px; border-radius: 0px; border-color: var(--grey)">
+    <div class="card-header postcard" style="border-radius: 0px; background-color: var(--lgrey);">
         <h3 class="card-title postcard postcard-header">Second Post</h3>
     </div>
     <div class="card-body bg-white postcard">
@@ -95,13 +104,13 @@
 
             </div>
         
-            <div class="col-sm-6">
-                <div class="card shadow-sm" style="margin: 15px; border-radius: 0px;">
-    <div class="card-header bg-light postcard" style="border-radius: 0px;">
+            <div class="col-sm-6 card-container">
+                <div class="card shadow-sm" style="margin: 15px; border-radius: 0px; border-color: var(--grey)">
+    <div class="card-header postcard" style="border-radius: 0px; background-color: var(--lgrey);">
         <h3 class="card-title postcard postcard-header">First Post</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/AO.png" alt="First Post" />
+        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/stillLifeAO.png" alt="First Post" />
         <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
             <a href="/2021/01/03/First-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah blah…</a>
         </div>
@@ -116,13 +125,22 @@
                 <br />
             </div>
     <!-- Footer -->
-            <div class="container-fluid bg-light fixed-bottom d-flex justify-content-center align-items-end" style="height: 8%;">
+            <div class="container-fluid fixed-bottom d-flex justify-content-center align-items-end" style="height: 8%; background-color: var(--lgrey);">
     <div class="d-inline-flex justify-content-center align-items-baseline" style="font-size: 84%; font-style: oblique">
-        <p class="mono">Canvas is built using the</p>
-        <a class="mono" href="https://github.com/schuyh/canvas">&nbsp;Canvas theme</a>
+        <p class="mono">
+            Canvas is built using the
+            <a class="mono" href="https://github.com/schuyh/canvas">Canvas theme</a>
+        </p>
     </div>
 </div>
     <!-- Page End -->
         </div>
+
+        <!-- Javascript-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+        <script src="/scripts/mode-switcher.js"></script>
+
     </body>
 </html>

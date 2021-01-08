@@ -1,7 +1,7 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "canvas" # the name of your site, e.g. ACME Corp.
-logo: "/assets/images/canvas4.png"
+logo: "/assets/images/canvas6.png"
 author: Schuy H
 
 sass:

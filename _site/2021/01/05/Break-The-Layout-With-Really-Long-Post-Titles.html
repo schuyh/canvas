@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@200&family=Roboto+Slab:wght@300&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@200&family=Roboto+Slab:wght@300&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <!-- Font Awesome-->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
@@ -22,11 +22,11 @@
     <a href="/"><h1>Canvas</h1></a>
 </div>
     <!-- Nav -->
-            <nav class="navbar navbar-expand bg-light sticky-top shadow-sm" style="height: 8%;">
+            <nav class="navbar navbar-expand sticky-top shadow-sm" style="height: 8%; background-color: var(--lgrey);">
     <a class="navbar-brand" href="/">
-        <img class="navbar-brand-image" src="/assets/images/canvas4.png" alt="logo" style="width: 50px;">
+        <img class="navbar-brand-image" src="/assets/images/canvas6.png" alt="logo" style="width: 50px;">
     </a>
-    <ul class="navbar-nav">
+    <ul class="navbar-nav" style="width: 100%;">
         
         <li class="nav-item">
             <a class="nav-link" href="/">
@@ -41,24 +41,33 @@
         </li>
         
     </ul>
+    <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+    <a class="nav-link" href="">
+        <a id="theme-toggle" onclick="modeSwitcher()">
+            <img id="paintbrush" src="/assets/images/paintbrushBlack3.png" style="max-width: 50px; height: auto;">
+        </a>
+    </a>
+</li>
+    </ul>
 </nav>
     <!-- Body/Content -->
-            <div class="container pt-3">
+            <div class="container-fluid pt-3">
                 <div class="row pt-3 d-flex justify-content-center">
     <h2 class="post-header pt-3">Break the Layout with Really Long Post Titles</h2>
 </div>
 <div class="row pt-3">
     <div class="col-12 pt-3 d-flex align-content-baseline">
         
-            <img class="post-image" src="/assets/images/AO.png" alt="Break the Layout with Really Long Post Titles">
-        
+            <img class="post-image" src="/assets/images/stillLife.jpeg" alt="Break the Layout with Really Long Post Titles">
+            
     </div>
 </div>
 <div class="row">
     <div class="col-7 d-inline-flex justify-content-start" style="padding-left: 20px;">
         <div class="post d-inline-flex align-items-baseline">
             <p class="social mono">
-                Schuy H | January 05, 2021
+                Schuy H | Jan 05, 2021
             </p>
         </div>
     </div>
@@ -67,7 +76,7 @@
             <ul class="d-inline-flex align-items-baseline">
     <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" target="_blank"><i class="fa fa-facebook">&nbsp;/&nbsp;</i></a></li>
     <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=Break the Layout with Really Long Post Titles&summary=&url=http://localhost:4000/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" target="_blank"><i class="fa fa-linkedin">&nbsp;/&nbsp;</i></a></li>
-    <li><a href="https://www.pinterest.com/pin/create/link/?description=&media=http://localhost:4000/assets/images/AO.png&url=http://localhost:4000/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" target="_blank"><i class="fa fa-pinterest">&nbsp;/&nbsp;</i></a></li>
+    <li><a href="https://www.pinterest.com/pin/create/link/?description=&media=http://localhost:4000/assets/images/stillLife.jpeg&url=http://localhost:4000/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" target="_blank"><i class="fa fa-pinterest">&nbsp;/&nbsp;</i></a></li>
     <li><a href="https://www.reddit.com/submit?url=http://localhost:4000/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" target="_blank"><i class="fa fa-reddit">&nbsp;/&nbsp;</i></a></li>
     <li><a href="https://www.tumblr.com/share/link?url=http://localhost:4000/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" target="_blank"><i class="fa fa-tumblr">&nbsp;/&nbsp;</i></a></li>
     <li><a href="https://twitter.com/intent/tweet?&text=Break the Layout with Really Long Post Titles+http://localhost:4000/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html+by+Schuy H" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -89,13 +98,22 @@
                 <br />
             </div>
     <!-- Footer -->
-            <div class="container-fluid bg-light fixed-bottom d-flex justify-content-center align-items-end" style="height: 8%;">
+            <div class="container-fluid fixed-bottom d-flex justify-content-center align-items-end" style="height: 8%; background-color: var(--lgrey);">
     <div class="d-inline-flex justify-content-center align-items-baseline" style="font-size: 84%; font-style: oblique">
-        <p class="mono">Canvas is built using the</p>
-        <a class="mono" href="https://github.com/schuyh/canvas">&nbsp;Canvas theme</a>
+        <p class="mono">
+            Canvas is built using the
+            <a class="mono" href="https://github.com/schuyh/canvas">Canvas theme</a>
+        </p>
     </div>
 </div>
     <!-- Page End -->
         </div>
+
+        <!-- Javascript-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+        <script src="/scripts/mode-switcher.js"></script>
+
     </body>
 </html>

@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand bg-light sticky-top shadow-sm" style="height: 8%;">
+<nav class="navbar navbar-expand sticky-top shadow-sm" style="height: 8%; background-color: var(--lgrey);">
     <a class="navbar-brand" href="/">
         <img class="navbar-brand-image" src="{{ site.logo }}" alt="logo" style="width: 50px;">
     </a>
-    <ul class="navbar-nav">
+    <ul class="navbar-nav" style="width: 100%;">
         {% for item in site.data.navigation %}
         <li class="nav-item">
             <a class="nav-link" href="{{ item.link }}">
@@ -10,5 +10,8 @@
             </a>
         </li>
         {% endfor %}
+    </ul>
+    <ul class="navbar-nav justify-content-end">
+        {% include toggle.html %}
     </ul>
 </nav>
