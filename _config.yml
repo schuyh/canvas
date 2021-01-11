@@ -2,8 +2,10 @@ url: "https://www.canvas.schuylines.net" # the base hostname & protocol for your
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "canvas" # the name of your site, e.g. ACME Corp.
 logo: "/assets/images/canvas6.png"
+
 author: Schuy H
-email: schuy+canvas@schuylines.net
+alias: Sky # author's alias -- appears in body of mailto: link
+email: schuy+canvas@schuylines.net # used in **publically available** mailto: link
 
 sass:
   style: compressed
