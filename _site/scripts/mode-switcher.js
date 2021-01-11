@@ -51,3 +51,6 @@ let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
         sessionStorage.setItem('theme', 'light');
         document.getElementById("paintbrush").src = "/assets/images/paintbrushBlack3.png";
     }
+
+/* Thank you to Derek Kedziora for writing the blog post "Dark Mode Revisited" 
+   and for making the underlying CSS, HTML, and Javascript available for reuse */
