@@ -5,7 +5,7 @@ logo: "/assets/images/canvas6.png"
 
 author: Schuy H
 alias: Sky # author's alias -- appears in body of mailto: link
-email: schuy+canvas@schuylines.net # used in **publically available** mailto: link
+email: schuy+canvas@schuylines.net # PUBLICALLY AVAILABLE in "contact us" mailto: link
 
 sass:
   style: compressed
