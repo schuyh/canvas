@@ -1,4 +1,4 @@
-I"ä<div class="pt-3">
+I"Ÿ<div class="pt-3">
     <div class="row pt-3">
         <h2 class="d-flex justify-content-center">Gallery</h2>
     </div>
@@ -7,12 +7,16 @@
             <div class="col-md-6 card-container">
                 <div class="card shadow-sm" style="margin: 15px; border-radius: 0px; border-color: var(--grey)">
     <div class="card-header postcard" style="border-radius: 0px; background-color: var(--lgrey);">
-        <h3 class="card-title postcard postcard-header">Break the Layout...</h3>
+        <h3 class="card-title postcard postcard-header">What If No...</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="" alt="Break the Layout with Really Long Post Titles" />
-        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+        
+            <img class="card-img-top postcard-image greyscale shadow-sm" src="/assets/images/office.png" alt="" />
+        
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="position: -15px;">
+            <span class="highlight">
             <a href="/2021/01/05/What-If-No-AO-Img-Provided.html" class="stretched-link postcard">How do the cards look in the gallery if...</a>
+            </span>
         </div>
     </div>
 </div>
@@ -25,9 +29,13 @@
         <h3 class="card-title postcard postcard-header">Break the Layout...</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/stillLifeAO.png" alt="Break the Layout with Really Long Post Titles" />
-        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+        
+            <img class="card-img-top postcard-image shadow-sm" src="/assets/images/stillLifeAO.png" alt="" />
+            
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="position: -15px;">
+            <span class="highlight">
             <a href="/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah blahâ€¦</a>
+            </span>
         </div>
     </div>
 </div>
@@ -40,9 +48,13 @@
         <h3 class="card-title postcard postcard-header">Lorem Ipsum</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/officeAO.png" alt="Lorem Ipsum" />
-        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+        
+            <img class="card-img-top postcard-image shadow-sm" src="/assets/images/officeAO.png" alt="" />
+            
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="position: -15px;">
+            <span class="highlight">
             <a href="/2021/01/05/Lorem-Ipsum.html" class="stretched-link postcard">Break the layout with really long post descriptions which...</a>
+            </span>
         </div>
     </div>
 </div>
@@ -55,9 +67,13 @@
         <h3 class="card-title postcard postcard-header">Second Post</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/officeAO.png" alt="Second Post" />
-        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+        
+            <img class="card-img-top postcard-image shadow-sm" src="/assets/images/officeAO.png" alt="" />
+            
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="position: -15px;">
+            <span class="highlight">
             <a href="/2021/01/04/Second-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah blahâ€¦</a>
+            </span>
         </div>
     </div>
 </div>
@@ -70,9 +86,13 @@
         <h3 class="card-title postcard postcard-header">First Post</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="/assets/images/stillLifeAO.png" alt="First Post" />
-        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+        
+            <img class="card-img-top postcard-image shadow-sm" src="/assets/images/stillLifeAO.png" alt="" />
+            
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="position: -15px;">
+            <span class="highlight">
             <a href="/2021/01/03/First-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah blahâ€¦</a>
+            </span>
         </div>
     </div>
 </div>

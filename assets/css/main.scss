@@ -13,13 +13,13 @@ html, html[data-theme="light"] {
     --dgrey: #7e7f80;
     --grey: #aeafb0;
     --lgrey: #f7f8f9;
-    --white: #f0f1f2;
+    --white: #f1f2f3;
     --theme-toggle: url(/assets/images/paintbrushBlack3.png)
 }
 
 html[data-theme="dark"] {
     --bgColor: #4e4f50;
-    --black: #f0f1f2;
+    --black: #f1f2f3;
     --lblack: #f3f4f5;
     --dgrey: #f7f8f9;
     --grey: #aeafb0;
@@ -32,7 +32,8 @@ html[data-theme="dark"] {
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
         --bgColor: #4e4f50;
-        --black: #f0f1f2;
+        --black: #f1f2f3;
+        --lblack: #f3f4f5
         --dgrey: #f7f8f9;
         --grey: #aeafb0;
         --lgrey: #7e7f80;
@@ -43,10 +44,11 @@ html[data-theme="dark"] {
     html[data-theme="light"] {
         --bgColor: white;
         --black: #050709;
+        --lblack: #050709a6;
         --dgrey: #7e7f80;
         --grey: #aeafb0;
         --lgrey: #f7f8f9;
-        --white: #f0f1f2;
+        --white: #f1f2f3;
         --theme-toggle: url(assets/images/paintbrushBlack3.png)
   } 
 }
@@ -160,6 +162,13 @@ img.greyscale {
 
 }
 
+.postcard-text {
+    margin: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+}
+
 .highlight {
     width: 100%;
     margin: 0px;
@@ -172,13 +181,6 @@ img.greyscale {
     margin: 0px;
     background-color: var(--white);
     opacity: 50%;
-}
-
-.postcard-text {
-    margin: 0px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 3px;
 }
 
 .post-header {

@@ -8,7 +8,7 @@
             {% else %}
             <img class="card-img-top postcard-image greyscale shadow-sm" src="{{ post.image }}" alt="{{ page.title }}">
         {% endif %}
-        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="margin: 0px;">
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="margin-left: -5px; margin-right: -5px;">
             <span class="highlight">
             <a href="{{ post.url }}" class="stretched-link postcard">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 9 }}</a>
             </span>
