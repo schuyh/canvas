@@ -9,6 +9,7 @@
 html, html[data-theme="light"] {
 	--bgColor: white;
     --black: #050709;
+    --lblack: #050709a6;
     --dgrey: #7e7f80;
     --grey: #aeafb0;
     --lgrey: #f7f8f9;
@@ -19,6 +20,7 @@ html, html[data-theme="light"] {
 html[data-theme="dark"] {
     --bgColor: #4e4f50;
     --black: #f0f1f2;
+    --lblack: #f3f4f5;
     --dgrey: #f7f8f9;
     --grey: #aeafb0;
     --lgrey: #7e7f80;
@@ -141,14 +143,35 @@ ul {
 }
 
 .postcard-header {
-    color: var(--grey);
+    color: var(--lblack);
 }
 
 .postcard-image {
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
-    background-color: var(--lgrey);
+    background-color: #f7f8f9;
+    max-height: 260px;
+    max-width: 100%;
+}
+
+img.greyscale {
+    filter: grayscale(100%) contrast(75%) brightness(125%);
+
+}
+
+.highlight {
+    width: 100%;
+    margin: 0px;
+    background-color: var(--black);
+    opacity: 50%;
+}
+
+.highlight:hover {
+    width: 100%;
+    margin: 0px;
+    background-color: var(--white);
+    opacity: 50%;
 }
 
 .postcard-text {

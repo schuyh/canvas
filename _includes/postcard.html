@@ -3,9 +3,15 @@
         <h3 class="card-title postcard postcard-header">{{ post.title | strip_html | truncatewords: 3}}</h3>
     </div>
     <div class="card-body bg-white postcard">
-        <img class="card-img-top postcard-image shadow-sm" src="{{ post.ao }}" alt="{{ post.title }}">
-        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end">
+        {% if post.ao %}
+            <img class="card-img-top postcard-image shadow-sm" src="{{ post.ao }}" alt="{{ page.title }}">
+            {% else %}
+            <img class="card-img-top postcard-image greyscale shadow-sm" src="{{ post.image }}" alt="{{ page.title }}">
+        {% endif %}
+        <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="margin: 0px;">
+            <span class="highlight">
             <a href="{{ post.url }}" class="stretched-link postcard">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 9 }}</a>
+            </span>
         </div>
     </div>
 </div>

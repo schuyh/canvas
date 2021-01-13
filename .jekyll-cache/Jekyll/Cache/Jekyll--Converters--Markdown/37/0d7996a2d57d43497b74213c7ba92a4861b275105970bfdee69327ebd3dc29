@@ -1,64 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title> - canvas</title>
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Canvas CSS -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <!-- Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@200&family=Roboto+Slab:wght@300&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-    <!-- Font Awesome-->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-</head>
-    <body>
-    <!-- Page Start -->
-        <div style="height: 1000px;">
-    <!-- Header -->
-            <div class="container-fluid d-flex align-items-end header" style="min-height: 16%;">
-    <a href="/"><h1>Canvas</h1></a>
-</div>
-    <!-- Nav -->
-            <nav class="navbar navbar-expand sticky-top shadow-sm" style="height: 8%; background-color: var(--lgrey);">
-    <a class="navbar-brand" href="/">
-        <img class="navbar-brand-image" src="/assets/images/canvas6.png" alt="logo" style="width: 50px;">
-    </a>
-    <ul class="navbar-nav" style="width: 100%;">
-        
-        <li class="nav-item">
-            <a class="nav-link" href="/">
-                home
-            </a>
-        </li>
-        
-        <li class="nav-item">
-            <a class="nav-link" href="https://www.schuylines.net/">
-                schuylines
-            </a>
-        </li>
-        
-        <li class="nav-item">
-            <a class="nav-link" href="mailto:schuy+canvas@schuylines.net?subject=Contact%20Us&body=Hi%20Sky%2C">
-                contact us
-            </a>
-        </li>
-    </ul>
-    <ul class="navbar-nav justify-content-end">
-        <li class="nav-item">
-    <a class="nav-link" href="">
-        <a id="theme-toggle" onclick="modeSwitcher()">
-            <img id="paintbrush" src="/assets/images/paintbrushBlack3.png" style="max-width: 50px; height: auto;">
-        </a>
-    </a>
-</li>
-    </ul>
-</nav>
-    <!-- Body/Content -->
-            <div class="container-fluid pt-3">
-                <div class="pt-3">
+I"�<div class="pt-3">
     <div class="row pt-3">
         <h2 class="d-flex justify-content-center">Gallery</h2>
     </div>
@@ -74,7 +14,7 @@
             <img class="card-img-top postcard-image greyscale shadow-sm" src="/assets/images/office.png" alt="" />
         
         <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="margin: 0px;">
-            <span class="highlight">
+            <span class="container-fluid highlight">
             <a href="/2021/01/05/What-If-No-AO-Img-Provided.html" class="stretched-link postcard">How do the cards look in the gallery if...</a>
             </span>
         </div>
@@ -93,7 +33,7 @@
             <img class="card-img-top postcard-image shadow-sm" src="/assets/images/stillLifeAO.png" alt="" />
             
         <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="margin: 0px;">
-            <span class="highlight">
+            <span class="container-fluid highlight">
             <a href="/2021/01/05/Break-The-Layout-With-Really-Long-Post-Titles.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah blah…</a>
             </span>
         </div>
@@ -112,7 +52,7 @@
             <img class="card-img-top postcard-image shadow-sm" src="/assets/images/officeAO.png" alt="" />
             
         <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="margin: 0px;">
-            <span class="highlight">
+            <span class="container-fluid highlight">
             <a href="/2021/01/05/Lorem-Ipsum.html" class="stretched-link postcard">Break the layout with really long post descriptions which...</a>
             </span>
         </div>
@@ -131,7 +71,7 @@
             <img class="card-img-top postcard-image shadow-sm" src="/assets/images/officeAO.png" alt="" />
             
         <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="margin: 0px;">
-            <span class="highlight">
+            <span class="container-fluid highlight">
             <a href="/2021/01/04/Second-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah blah…</a>
             </span>
         </div>
@@ -150,7 +90,7 @@
             <img class="card-img-top postcard-image shadow-sm" src="/assets/images/stillLifeAO.png" alt="" />
             
         <div class="card-img-overlay postcard-text d-flex justify-content-start align-items-end" style="margin: 0px;">
-            <span class="highlight">
+            <span class="container-fluid highlight">
             <a href="/2021/01/03/First-Post.html" class="stretched-link postcard">Lorem ipsum dolore sit amet blah blah blah…</a>
             </span>
         </div>
@@ -161,27 +101,4 @@
         
     </div>
 </div>
-
-                <br />
-            </div>
-    <!-- Footer -->
-            <div class="container-fluid fixed-bottom d-flex justify-content-center align-items-center footer" style="height: 8%; background-color: var(--lgrey);">
-    <span class="d-inline-flex justify-content-center align-items-baseline footer" style="font-size: 84%; font-style: oblique;">
-        <h1 class="footer" style="font-size: 0.84rem;">Canvas</h1> 
-        <p class="footer mono">&nbsp;is built using the&nbsp;</p>
-        <a class="footer mono" href="https://github.com/schuyh/canvas">Canvas theme</a>
-    </span>
-</div>
-    <!-- Page End -->
-        </div>
-
-        <!-- Javascript-->
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-
-        <script src="/scripts/firefox-night-mode.js"></script>
-
-        <script src="/scripts/mode-switcher.js"></script>
-
-    </body>
-</html>
+:ET
