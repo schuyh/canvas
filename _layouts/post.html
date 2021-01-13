@@ -8,9 +8,9 @@ layout: default
 <div class="row pt-3">
     <div class="col-12 pt-3 d-flex align-content-baseline">
         {% if page.image %}
-            <img class="post-image" src="{{ page.image }}" alt="{{ page.title }}">
+            <img class="post-image" src="{{ page.image }}" alt="{{ page.title }}" style="height: auto;">
             {% else %}
-            <img class="post-image" src="{{ page.ao }}" alt="{{ page.title }}">
+            <img class="post-image" src="{{ page.ao }}" alt="{{ page.title }}" style="height: auto;">
         {% endif %}
     </div>
 </div>
@@ -36,4 +36,6 @@ layout: default
     </div>
 </div>
 
-
+<!-- Added style="height: auto;" to imgs
+    like in reno-visions gallery 
+    to fix image strecthing in mobile --> 
